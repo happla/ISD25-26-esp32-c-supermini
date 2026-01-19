@@ -9,7 +9,7 @@ Jump to sections:
 - [Technical Specs](#technical-specs) 
 - [Requirements](#requirements)  
 - [Pin Reference](#pin-reference-esp32-c3-super-mini)  
-- [Quick Start](#quick-start)  
+- [Quick Start](#quick-start)
 
 ## Technical specs
 
@@ -19,9 +19,8 @@ Full board specs:(https://www.espboards.dev/esp32/esp32-c3-super-mini/)
 Software
 
 To use ESP-IDF with your ESP32:
-1. Toolchain – for compiling code for ESP32.
-2.Build tools – CMake and Ninja to build full applications.
-3. ESP-IDF – contains APIs (libraries + source code) and scripts to operate the toolchain.
+2.Build tools – CMake and Ninja to build full applications. <br>
+3. ESP-IDF – contains APIs (libraries + source code) and scripts to operate the toolchain. <br>
 
 Reference: (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
 
