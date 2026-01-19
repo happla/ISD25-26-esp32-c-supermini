@@ -16,7 +16,7 @@ Jump to sections:
 Full board specs:(https://www.espboards.dev/esp32/esp32-c3-super-mini/)
 
 ## Requirements
-Software
+Software
 
 To use ESP-IDF with your ESP32:
 1. Toolchain – for compiling code for ESP32.
