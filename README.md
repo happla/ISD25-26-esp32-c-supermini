@@ -29,7 +29,7 @@ Reference: (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-star
 Blue onboard LED: GPIO8 (might be weak, didnt get a blue light or I suck -hp).
 I²C: SDA → GPIO8, SCL → GPIO9 (shared with sensors).
 Check the backside of the board for exact pin layout.
-<img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "40%" height = "40%">
+<img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "100%" height = "100%">
 
 ## Quick Start
 Follow these steps to build, flash, and monitor your ESP32-C3 Super Mini:
