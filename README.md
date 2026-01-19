@@ -1,12 +1,63 @@
-# ISD25-26-esp32-c-supermini
-esp32c3supermini build for isd 2025-26. For the build SPS30 and BME690 -sensors included. 
-I2C pins GPI08(SDA, pin 8) and GPI09(SCL,pin 9) will be shared with the sensors. Pins can be checked from the backside of the esp32-c3 super mini.
+# ISD25-26-esp32-c-supermini project
+This project is for the ESP32-C3 Super Mini board for ISD 2025–26.
+Planned sensors: SPS30 and BME690 (not yet implemented).
+I²C pins are GPIO8 (SDA) and GPIO9 (SCL), shared with sensors.
+You can verify pin connections from the **backside of the board**.
+**Always read the board specifications before starting.**
 
+Jump to sections:
+- [Technical Specs](#technical-specs)  
+- [Requirements](#requirements)  
+- [Pin Reference](#pin-reference-esp32-c3-super-mini)  
+- [Quick Start](#quick-start)  
 
+## Technical specs
 
-### Technical specs
-Specifications for the board can be found from here: (https://www.espboards.dev/esp32/esp32-c3-super-mini/)
+Full board specs:(https://www.espboards.dev/esp32/esp32-c3-super-mini/)
 
-### Pin reference esp32 c3 super mini
+## Requirements
+Software
+
+To use ESP-IDF with your ESP32:
+1. Toolchain – for compiling code for ESP32.
+2.Build tools – CMake and Ninja to build full applications.
+3. ESP-IDF – contains APIs (libraries + source code) and scripts to operate the toolchain.
+
+Reference: (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
+
+## Pin reference esp32 c3 super mini
+Blue onboard LED: GPIO8 (might be weak, didnt get a blue light or I suck -hp).
+I²C: SDA → GPIO8, SCL → GPIO9 (shared with sensors).
+Check the backside of the board for exact pin layout.
 <img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "40%" height = "40%">
+
+## Quick Start
+Follow these steps to build, flash, and monitor your ESP32-C3 Super Mini:
+1.Set up ESP-IDF environment:
+```
+cd ~/esp/esp-idf
+source export.sh
+```
+
+2.Go to your project folder
+
+3. Set ESP32-C3 as a target, clean (optional) and build
+```
+idf.py set-target esp32c3
+idf.py fullclean
+idf.py build
+```
+4.Flash firmware and monitor to the esp using port or other way
+option a:
+```
+idf.py -p PORT flash monitor
+```
+
+option b (auto-detect):
+```
+idf.py flash monitor
+```
+
+[Back to top](#isd25-26-esp32-c-supermini-project)
+
 
