@@ -13,10 +13,12 @@ extern "C" void app_main(void)
     {
         //LED ON
         gpio_set_level(LED_PIN, 0); 
+        printf("LED ON"); 
         vTaskDelay(pdMS_TO_TICKS(500)); //0.5s
 
         //LED OFF
         gpio_set_level(LED_PIN, 1);
+        printf("LED OFF");
         vTaskDelay(pdMS_TO_TICKS(500)); //0.5s
     }
 }
