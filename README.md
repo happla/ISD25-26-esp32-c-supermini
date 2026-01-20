@@ -3,7 +3,7 @@ This project is for the ESP32-C3 Super Mini board for ISD 2025–26.<br>
 Planned sensors: SPS30 and BME690 (not yet implemented).<br>
 I²C pins are GPIO8 (SDA) and GPIO9 (SCL), shared with sensors.<br>
 You can verify pin connections from the **backside of the board**.<br>
-**Always read the board specifications before starting.**<br>
+**Read the specs before starting.**<br>
 
 Jump to sections:
 - [Technical Specs](#technical-specs) 
