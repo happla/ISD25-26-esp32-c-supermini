@@ -35,7 +35,7 @@ Follow these steps to build, flash, and monitor your ESP32-C3 Super Mini:
 1.Set up ESP-IDF environment:
 ```
 cd ~/esp/esp-idf
-source export.sh
+source ~/esp/esp-idf/export.sh
 ```
 
 2.Go to your project folder
