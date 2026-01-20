@@ -25,7 +25,7 @@ To use ESP-IDF with your ESP32:<br>
 Reference: (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
 
 ## Pin reference esp32 c3 super mini
-Blue onboard LED: GPIO8 (might be weak, didnt get a blue light or I suck -hp).<br>
+Blue onboard LED: GPIO8 (also connected to SDA, it didn't work for me -hp.)<br>
 I²C: SDA → GPIO8, SCL → GPIO9 (shared with sensors).<br>
 Check the backside of the board for exact pin layout.<br>
 <img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "100%" height = "100%">
