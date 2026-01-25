@@ -1,5 +1,5 @@
 # ISD25-26-esp32-c-supermini project
-This project is for the ESP32-C3 Super Mini board for ISD 2025–26.<br>
+This project is for the ESP32-C3 Super Mini board for ISD 2025–26. Later ESP32-C6 will be updated in the project but that will be in a different repository.<br>
 Planned sensors: SPS30 and BME690 (not yet implemented).<br>
 I²C pins are GPIO8 (SDA) and GPIO9 (SCL), shared with sensors.<br>
 You can verify pin connections from the **backside of the board**.<br>
