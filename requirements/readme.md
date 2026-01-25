@@ -1,4 +1,4 @@
-# Instructions for downloading necessary requirements for esp-idf
+# work in progressInstructions for downloading necessary requirements for esp-idf
 
 ## Building ESP-IDF using CMake and Ninja
 
