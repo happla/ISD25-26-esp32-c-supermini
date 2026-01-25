@@ -32,14 +32,13 @@ Check the backside of the board for exact pin layout.<br>
 <img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "100%" height = "100%">
 
 ### sensirion sps30
-<p>| *SPS30* | *SPS30 Pin* | *Cable Color* | *Board Pin* |
-| :---:   | --- | --- | --- |
+| *SPS30* | *SPS30 Pin* | *Board Pin* |
+| :---:   | --- | --- |
 | VDD | 1 | 5V |
 | SDA | 2 | D2/SDA |
 | SCL | 3 | ~D3/SCL |
 | SEL | 4 | GND |
 | GND | 5 | GND |
-</p>
 
 
 <img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pingreferencesps30.png"> <br>
