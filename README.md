@@ -26,14 +26,13 @@ Reference: (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-star
 
 ## Pin reference
 ### esp32-c3 supermini
-<p>
 Blue onboard LED: GPIO8 (also connected to SDA, it didn't work for me -hp.)<br>
 I²C: SDA → GPIO8, SCL → GPIO9 (shared with sensors).<br>
 Check the backside of the board for exact pin layout.<br>
-<img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "100%" height = "100%">
-</p>
+<img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "50%" height = "50%">
+
 ### sensirion sps30
-<p>
+
 | *SPS30* | *SPS30 Pin* | *Board Pin* |
 | :---:   | --- | --- |
 | VDD | 1 | 5V |
@@ -44,7 +43,6 @@ Check the backside of the board for exact pin layout.<br>
 
 
 <img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pingreferencesps30.png" width="50%" height= "50%"> 
-</p>
 pg 4/26 sps30 datasheet, can be found from datasheet directory.
 
 ## Quick Start
