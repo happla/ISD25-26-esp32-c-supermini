@@ -41,7 +41,7 @@ Check the backside of the board for exact pin layout.<br>
 | GND | 5 | GND |
 
 
-<img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pingreferencesps30.png"> <br>
+<img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pingreferencesps30.png" width="50%" height= "50%"> <br>
 pg 4/26 sps30 datasheet, can be found from datasheet directory.
 
 ## Quick Start
