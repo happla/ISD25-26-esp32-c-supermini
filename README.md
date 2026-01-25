@@ -8,7 +8,7 @@ You can verify pin connections from the **backside of the board**.<br>
 Jump to sections:
 - [Technical Specs](#technical-specs) 
 - [Requirements](#requirements)  
-- [Pin Reference](#pin-reference-esp32-c3-super-mini)  
+- [Pin Reference](#pin-reference)
 - [Quick Start](#quick-start)
 
 ## Technical specs
@@ -24,11 +24,26 @@ To use ESP-IDF with your ESP32:<br>
 
 Reference: (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
 
-## Pin reference esp32 c3 super mini
+## Pin reference
+### esp32-c3 supermini
 Blue onboard LED: GPIO8 (also connected to SDA, it didn't work for me -hp.)<br>
 I²C: SDA → GPIO8, SCL → GPIO9 (shared with sensors).<br>
 Check the backside of the board for exact pin layout.<br>
 <img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pinreference.png" width= "100%" height = "100%">
+
+### sensirion sps30
+<p>| *SPS30* | *SPS30 Pin* | *Cable Color* | *Board Pin* |
+| :---:   | --- | --- | --- |
+| VDD | 1 | 5V |
+| SDA | 2 | D2/SDA |
+| SCL | 3 | ~D3/SCL |
+| SEL | 4 | GND |
+| GND | 5 | GND |
+</p>
+
+
+<img src="https://github.com/happla/ISD25-26-esp32-c-supermini/blob/main/pictures/pingreferencesps30.png"> <br>
+pg 4/26 sps30 datasheet, can be found from datasheet directory.
 
 ## Quick Start
 Follow these steps to build, flash, and monitor your ESP32-C3 Super Mini:
