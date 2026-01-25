@@ -21,6 +21,7 @@ Software
 To use ESP-IDF with your ESP32:<br>
 1.Build tools – CMake and Ninja to build full applications. <br>
 2. ESP-IDF – contains APIs (libraries + source code) and scripts to operate the toolchain. <br>
++ added instruction folder /requirements for building cmake and ninja
 
 Reference: (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
 
